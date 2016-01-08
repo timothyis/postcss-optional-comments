@@ -1,0 +1,36 @@
+{
+  "name": "postcss-optional-comments",
+  "version": "0.1.0",
+  "description": "A PostCSS plugin for conditionally outputting single or multiline comments",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodeTheory/postcss-optional-comments.git"
+  },
+  "keywords": [
+    "postcss",
+    "css",
+    "comments",
+    "single",
+    "line",
+    "comments",
+    "multiline",
+    "comments",
+    "optional",
+    "comments",
+    "conditional",
+    "comments"
+  ],
+  "author": "Timothy (@codetheory)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/CodeTheory/postcss-optional-comments/issues"
+  },
+  "homepage": "https://github.com/CodeTheory/postcss-optional-comments#readme",
+  "dependencies": {
+    "postcss": "^5.0.14"
+  }
+}
