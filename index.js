@@ -1,6 +1,6 @@
 var postcss = require('postcss');
 
-module.exports = postcss.plugin('postcss-inline-comment', function() {
+module.exports = postcss.plugin('postcss-optional-comments', function() {
 
     return function (root) {
         root.walkDecls(function(decl){
