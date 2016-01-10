@@ -1,7 +1,7 @@
 {
   "name": "postcss-optional-comments",
-  "version": "0.1.0",
-  "description": "A PostCSS plugin for conditionally outputting single or multiline comments",
+  "version": "1.0.0",
+  "description": "A PostCSS plugin for conditional comments",
   "main": "index.js",
   "scripts": {
     "test": "ava && eslint *.js"
