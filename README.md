@@ -1,4 +1,4 @@
-# postcss-optional-comments ![](https://img.shields.io/circleci/project/wulkano/molten.svg)
+# postcss-optional-comments ![](https://img.shields.io/circleci/project/wulkano/molten.svg) ![](https://img.shields.io/npm/v/postcss-optional-comments.svg)
 Support for conditional comments
 
 
