@@ -22,6 +22,24 @@ a {}
 ```
 
 
+## Usage
+
+### Gulp
+Use with `gulp-postcss` module.
+
+```js
+gulp.task('css', function () {
+  var postcss          = require('gulp-postcss');
+  var optionalComments = require('postcss-optional-comments');
+
+  return gulp.src('./src/**/*.css')
+    .pipe(postcss([ optionalComments ]))
+    .pipe(gulp.dest('./dest'));
+});
+```
+
+
+
 
 ## Todo
 - Support single line comments
